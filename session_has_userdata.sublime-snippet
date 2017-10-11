@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->session->has_userdata('${1:item}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci_session_has_userdata</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Session - Verify Session Data</description>
+</snippet>

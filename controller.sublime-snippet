@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:Controllername}} extends CI_Controller {
+	public function __construct()
+	{
+		parent::__construct();
+	}
+	
+	public function index()
+	{
+		$0
+	}
+
+}
+
+?>
+
+]]></content>
+	<tabTrigger>ci_controller</tabTrigger>
+	<scope>source.php, text.html, text.htm</scope>
+	<description>CI - Base Controller</description>
+</snippet>

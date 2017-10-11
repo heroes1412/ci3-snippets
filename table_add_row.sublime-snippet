@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$this->load->library('table');
+
+\$this->table->set_heading('${1:name}', '${2:Color}', '${3:Size}');
+\$this->table->add_row('${4:Fred}', '${5:Blue}', '${6:Small}');
+\$this->table->add_row('${7:Mary}', '${8:Red}', '${9:Large}');
+\$this->table->add_row('${10:John}', '${11:Green}', '${12:Medium}');
+
+echo \$this->table->generate();
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci_table_add_row</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Generate Table</description>
+</snippet>

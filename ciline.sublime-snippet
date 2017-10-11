@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[// ------------------------------------------------------------------------]]></content>
+	<tabTrigger>line</tabTrigger>
+	<scope>source.php</scope>
+	<description>line</description>
+</snippet>

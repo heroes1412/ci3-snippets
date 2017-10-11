@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php echo validation_errors(); ?>
+]]></content>
+	<tabTrigger>ci_form_validation_error</tabTrigger>
+	<scope>source.php, source.html, source.htm</scope>
+	<description>CI - Validation Return any error</description>
+</snippet>

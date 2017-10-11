@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends CI_Model {
+
+	public function ${2:func1}()
+	{
+		$0
+	}
+
+}
+
+?>
+]]></content>
+	<tabTrigger>ci_model</tabTrigger>
+	<scope>source.php, text.html, text.htm</scope>
+	<description>CI - Base Model</description>
+</snippet>

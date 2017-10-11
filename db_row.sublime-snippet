@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+\$query = \$this->db->query("${1:YOUR QUERY}");
+\$row = \$query->row(); //This method returns a single First result row
+if (isset(\$row))
+{
+        echo \$row->title;
+        echo \$row->name;
+        echo \$row->body;
+}
+
+\$row = \$query->row_array();
+if (isset(\$row))
+{
+        echo \$row['title'];
+        echo \$row['name'];
+        echo \$row['body'];
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci_db_row</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>CI - Active Record DB Row</description>
+</snippet>
